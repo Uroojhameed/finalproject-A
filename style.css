@@ -1,0 +1,216 @@
+*{margin: o; padding: 0 ;font-family: 'Poppins', sans-serif ,;}
+
+/* body{
+    background-color:#f7f7f9;
+} */
+a{
+    text-decoration: none;}
+
+a:hover{
+    text-decoration: none;}
+
+li{list-style: none;}
+p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color:#606060;
+}
+i{
+    color: #2fccd0;
+}
+ .extra-div h4{
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+font-weight: bold;
+line-height: 1.1;
+word-spacing: 4px;
+}
+.navbar{
+/* border: 1px solid yellow; */
+position:fixed ;
+z-index: 1;
+width: 100%;
+background-color:	rgb(204, 255, 255);
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:  url('pic/pic4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background: linear-gradient (to right, #1e5799 0%, #3ccdbb 0%, #16c9f6);
+    position: relative;
+}
+ .header::before{ 
+    content:"";
+    position: absolute;
+ top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: .5;
+    z-index: -1;
+    background: linear-gradient (to right, #1e5799 0%, #3ccdbb 0%, #16c9f6);
+} 
+
+ .navbar::before{
+    content:"";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: .5;
+     z-index: -1;
+    background: linear-gradient (to right, #1e5799 0%, #3ccdbb 0%, #16c9f6);
+
+} 
+.nav-item a{
+    color: #2fccd0;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.header-section{
+    width: 100%;
+    height: inherit;
+    text-align: center;
+    position: relative;
+
+}
+.nav-item a:hover{
+    background: rgba(88, 8, 8, 0.349);
+}
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.header-buttons a{
+    border: 3px solid rgb(139, 0, 53) ;
+   border-radius: 100px; 
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: rgb(0, 9, 139);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+.header-buttons a:hover{
+    color: #040731;
+    background: rgba(88, 8, 8, 0.349);
+    text-decoration: none;
+}
+.center-div p{
+    font-size: 1.3rem;
+    padding: 1px 0 20px 0 ;
+}
+/* /* <!-- *************three extra header css div*********** --> */
+.header-extradiv{
+    width: 100%; height: auto;
+    margin: 100px 0;
+    text-align: center;
+  
+}
+.extra-div{
+    background: #fff;
+    border: medium none;
+    padding:50px !important;
+    border-radius: 3px;
+    transition: 0.3s; 
+}
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+/* /* <!-- *************three extra header css div end*********** --> */
+
+
+
+/* /* <!-- *************services offer css start*********** --> */
+.serviceOffers{
+    padding: 50px 0;
+    margin-bottom: 50px;
+    background-color:#f7f7f9c5;
+}
+.headings{
+margin-bottom: 50px;
+}
+.headings h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+.name h1{
+color: #2e2e2e;
+font-size: 0.9rem;
+text-transform: uppercase;
+font-weight: bold;
+
+}
+.servicediv h2{
+font-size: 0.9rem;
+margin: 20px 0 15px 0;
+font-weight: bold;
+line-height: 1.1;
+word-spacing: 4px;
+}
+.service-icons{
+    display: flex;
+    justify-content:last baseline;
+    align-items: center;
+}
+.progress{
+    height: 0.6rem !important;
+    margin-bottom: 25px !important;
+background: #606060;
+}
+/* /* <!-- *************services offer css end*********** --> */
+
+/* /* <!-- *************project css start*********** --> */
+
+
+.project-work{
+    margin: 100px 0;
+
+}
+.project-work h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+/* /* <!-- *************project end*********** --> */
+.show{
+    background-color: #2e2e2e;
+
+}
+.center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      height: 100%;
+
+}
+/* /* <!-- *************slide pics*********** --> */
+
+.card-sample{
+    margin-top: 2px;
+    padding: 2px;
+}
+.card h5{
+
+    font-size: x-large;
+
+} 
+
+
+
+
